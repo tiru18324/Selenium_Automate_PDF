@@ -1,0 +1,103 @@
+{
+  "id": "6b950600-ff48-4c42-9f93-cf7f44b44a6b",
+  "version": "2.0",
+  "name": "new_2",
+  "url": "https://www.ssrn.com/index.cfm/en/neuroscience/",
+  "tests": [{
+    "id": "a92287d0-6bbf-4019-97dc-e3942ab6c82d",
+    "name": "new_3",
+    "commands": [{
+      "id": "00fd5fc7-78fb-4dad-876d-68b647592a3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ssrn.com/index.cfm/en/neuroscience/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd0acff-4568-4a29-add8-50ee5472ec3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1089x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb572fea-a26e-4862-8e5e-75b484b680e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dfd3708-bad4-4671-a434-dbaab2584692",
+      "comment": "",
+      "command": "click",
+      "target": "id=sort",
+      "targets": [
+        ["id=sort", "id"],
+        ["name=sort", "name"],
+        ["css=#sort", "css:finder"],
+        ["xpath=//select[@id='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='network-papers']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7230aad-ab9e-453b-aa55-7da566ba3637",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .title > a",
+      "targets": [
+        ["linkText=The Enhancement of P300 Amplitude and Event-Related Gaba Release by Decision-Making in the Mpfc of Mice", "linkText"],
+        ["css=li:nth-child(1) .title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'The Enhancement of P300 Amplitude and Event-Related Gaba Release by Decision-Making in the Mpfc of Mice')]", "xpath:link"],
+        ["xpath=//div[@id='network-papers']/div[4]/ol/li/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4732204')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Enhancement of P300 Amplitude and Event-Related Gaba Release by Decision-Making in the Mpfc of Mice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35971583-e8f6-4b78-9eea-2f105d2887d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Add Paper to My Library",
+      "targets": [
+        ["linkText=Add Paper to My Library", "linkText"],
+        ["css=.star-container > a", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Add Paper to My Library')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c8fb24-9206-4722-b2f1-cb86e5135d94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download This Paper",
+      "targets": [
+        ["linkText=Download This Paper", "linkText"],
+        ["css=.abstract-buttons:nth-child(1) .primary", "css:finder"],
+        ["xpath=//a[@onclick='sendLeadBoxerEvent()']", "xpath:attributes"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Delivery.cfm/65a23fe1-2847-4b0f-a7cf-6ea4f4a7d694-MECA.pdf?abstractid=4732204&mirid=1')]", "xpath:href"],
+        ["xpath=//main/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download This Paper')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4d6a4533-a98d-4318-8a20-a3ac0ece2f22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ssrn.com/index.cfm/en/neuroscience/"],
+  "plugins": []
+}
